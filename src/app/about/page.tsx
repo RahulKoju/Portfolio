@@ -6,33 +6,29 @@ import { Circle, Heart, User2 } from "lucide-react";
 const page = () => {
   const items = [
     { hobby: "Coding" },
-    { hobby: "Playing Games" },
-    { hobby: "Watching Anime" },
+    { hobby: "Open Source Contributions" },
     { hobby: "Tech Blog Writing" },
-    { hobby: "Creating Cool Projects" },
+    { hobby: "Gaming" },
+    { hobby: "Trekking" },
   ];
 
   return (
-    // ABOUT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <User2 className="h-4 w-4" />
         About me
       </Badge>
       <div className="flex flex-col gap-5">
-        <Heading>
-          Software Engineer And Web <br /> Developer, Based In India.
-        </Heading>
+        <Heading>Full Stack Developer, Based In Nepal.</Heading>
 
         <FramerWrapper y={0} x={100}>
-          <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg ">
-            I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand,
-            India. I&apos;m passionate about crafting web projects and
-            contributing to open-source communities. I specialize in modern
-            JavaScript frameworks and responsive CSS design, focusing on
-            creating pixel-perfect, user-friendly interfaces. With strong
-            attention to detail and efficient delivery, I build seamless web
-            experiences that combine functionality with elegant design.
+          <p className="font-poppins text-xl w-full text-primary max-sm:text-lg ">
+            I am a dedicated full-stack developer with a strong foundation in
+            both front-end and back-end development. I specialize in modern
+            JavaScript frameworks like ReactJS, Next.js, and Remix for frontend
+            development, and Laravel, Node.js, and Express.js for backend
+            solutions. Passionate about problem-solving and delivering
+            innovative solutions.
           </p>
         </FramerWrapper>
       </div>
@@ -45,7 +41,6 @@ const page = () => {
       </FramerWrapper>
       <FramerWrapper className="block" y={100} delay={0.31}>
         <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
-          {" "}
           <Heart className="h-8 w-8" /> Hobbies
         </h1>
         <div className="w-full h-fit p-2 flex flex-row justify-between gap-7 max-lg:flex-col">
