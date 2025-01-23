@@ -23,39 +23,68 @@ interface ProjectCardProps {
 
 const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
   return (
-    <FramerWrapper 
-      className="max-w-[32%] max-lg:max-w-full" 
-      y={0} 
-      scale={0.8} 
-      delay={num/4} 
+    <FramerWrapper
+      className="max-w-[32%] max-lg:max-w-full"
+      y={0}
+      scale={0.8}
+      delay={num / 4}
       duration={0.15}
     >
       <Card className="w-full h-full flex flex-col hover:shadow-lg transition-all duration-300 border-2">
         <CardHeader className="pb-2">
-          <CardTitle className="text-xl font-bold text-primary">{value.title}</CardTitle>
+          <CardTitle className="text-xl font-bold text-primary">
+            {value.title}
+          </CardTitle>
         </CardHeader>
-        
+
         <CardContent className="flex-grow flex flex-col gap-4">
-          <p className="text-sm text-muted-foreground leading-relaxed">{value.description}</p>
-          
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            {value.description}
+          </p>
+
           <div className="flex flex-wrap gap-2">
             {value.tags.map((tag: string, index: number) => {
-              const tagStyles = {
-                'Nextjs': 'bg-teal-100 text-teal-800',
-                'Freelancing': 'bg-yellow-100 text-yellow-800',
-                'Shadcn Ui': 'bg-blue-100 text-blue-800',
-                'Typescript': 'bg-red-100 text-red-800',
-                'MySQL': 'bg-orange-100 text-orange-800',
-                'Zustand': 'bg-purple-100 text-purple-800',
-                'Supabase': 'bg-emerald-100 text-emerald-800',
-                'Npx': 'bg-indigo-100 text-indigo-800',
-                'Library': 'bg-pink-100 text-pink-800',
-                'Zod': 'bg-cyan-100 text-cyan-800',
-                'React Hook Form': 'bg-violet-100 text-violet-800'
-              }[tag] || 'bg-gray-100 text-gray-800';
+              const tagStyles =
+                {
+                  TypeScript: "bg-red-100 text-red-800",
+                  Groq: "bg-purple-100 text-purple-800",
+                  "Open-Source AI": "bg-emerald-100 text-emerald-800",
+                  "Node.js": "bg-green-100 text-green-800",
+                  "TCP Sockets": "bg-blue-100 text-blue-800",
+                  "Performance Optimization": "bg-indigo-100 text-indigo-800",
+                  "MERN Stack": "bg-teal-100 text-teal-800",
+                  JWT: "bg-yellow-100 text-yellow-800",
+                  "Tailwind CSS": "bg-cyan-100 text-cyan-800",
+                  Firebase: "bg-orange-100 text-orange-800",
+                  Laravel: "bg-pink-100 text-pink-800",
+                  OAuth: "bg-violet-100 text-violet-800",
+                  "Payment Gateway": "bg-rose-100 text-rose-800",
+                  "Next.js": "bg-sky-100 text-sky-800",
+                  "ShadCN UI": "bg-lime-100 text-lime-800",
+                  "React Hook Form": "bg-fuchsia-100 text-fuchsia-800",
+                  Zod: "bg-amber-100 text-amber-800",
+                  Supabase: "bg-emerald-100 text-emerald-800",
+                  "Eloquent ORM": "bg-indigo-100 text-indigo-800",
+                  Nextjs: "bg-teal-100 text-teal-800",
+                  "Shadcn Ui": "bg-blue-100 text-blue-800",
+                  Typescript: "bg-red-100 text-red-800",
+                  MySQL: "bg-orange-100 text-orange-800",
+                  Zustand: "bg-purple-100 text-purple-800",
+                  Npx: "bg-indigo-100 text-indigo-800",
+                  Library: "bg-pink-100 text-pink-800",
+                  Analytics: "bg-blue-200 text-blue-900",
+                  JavaScript: "bg-yellow-200 text-yellow-900",
+                  Discord: "bg-purple-200 text-purple-900",
+                  "URL Shortener": "bg-green-200 text-green-900",
+                  Khalti: "bg-blue-100 text-blue-800",
+                  Esewa: "bg-green-100 text-green-800",
+                  Strapi: "bg-cyan-200 text-cyan-900",
+                  "React Query": "bg-pink-200 text-pink-900",
+                  Redux: "bg-purple-300 text-purple-900",
+                }[tag] || "bg-gray-100 text-gray-800";
 
               return (
-                <span 
+                <span
                   key={index}
                   className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${tagStyles}`}
                 >
@@ -72,14 +101,14 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
             target="_blank"
             rel="noopener noreferrer"
             className={cn(
-              buttonVariants({ 
-                variant: "default", 
-                size: "sm" 
+              buttonVariants({
+                variant: "default",
+                size: "sm",
               }),
               "w-fit transition-all hover:translate-y-[-2px] hover:shadow-md group"
             )}
           >
-            Visit Project 
+            Visit Project
             <ArrowUpRight className="h-4 w-4 ml-1 hidden group-hover:block -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
           </Link>
         </CardFooter>

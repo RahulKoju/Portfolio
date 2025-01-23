@@ -5,92 +5,75 @@ import { Badge } from "@/components/ui/badge";
 import { Layers } from "lucide-react";
 
 const projectsPage = () => {
-  // PROJECTS DATA
   const Projects = [
     {
-      title: "Devzone - A community chat app for devs",
+      title: "Chat-bot Application",
       description:
-        `DevZone is the ultimate chat platform for developers
-to connect, collaborate, and code together. Join the conversation and level up your coding journey.`,
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
-    },
-   
-    {
-      title: "itZmyLink- One Page many Links",
-      description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+        "An interactive AI-powered chatbot that enables users to ask questions and receive intelligent responses across various topics using advanced language models.",
+      tags: ["TypeScript", "Groq", "Open-Source AI", "JWT", "MERN Stack"],
+      link: "https://github.com/RahulKoju/OpenAI-chat-bot",
     },
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "Blog Application",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+        "A comprehensive content management system that allows users to create, publish, and manage blog posts with secure authentication, responsive design, and multimedia support.",
+      tags: [
+        "MERN Stack",
+        "JWT",
+        "Tailwind CSS",
+        "Firebase",
+        "Redux",
+        "JavaScript",
+      ],
+      link: "https://mern-blog-xyxn.onrender.com/",
     },
     {
-      title: "Mixcn-ui- Reusable components for Nextjs",
+      title: "E_Mitra",
       description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx","Library"],
-      link: "https://mixcn-ui.vercel.app",
+        "A business management platform designed to streamline operations for Mitra Khaja Ghar, utilizing Strapi as a headless CMS to provide flexible and scalable backend services.",
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "ShadCN UI",
+        "React Hook Form",
+        "Zod",
+        "Supabase",
+        "React Query",
+        "Strapi",
+      ],
+      link: "https://github.com/RahulKoju/E_Mitra",
     },
     {
-      title: "Rupeespot- All deals Product in one place",
+      title: "Oauth and Payment API",
       description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
+        "A secure authentication solution integrating Esewa and Khalti payment gateways, enabling seamless third-party login and digital transaction processing.",
+      tags: ["Laravel", "OAuth", "Esewa", "Khalti", "Payment Gateway"],
+      link: "https://github.com/RahulKoju/Oauth_Payment_API",
     },
     {
-      title: "Formcraft- Build Type-Safe Forms with Zero Effort",
+      title: "Job Search Application",
       description:
-        "Create production-ready forms with Zod validation, React Hook Form, and TypeScript. Design, customize, and deploy in minutes.",
-      tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
-      link: "https://formcraft-ti.vercel.app/",
-    },
-    
-    {
-      title: "KryptoKapital- Investing in Cryptocurreny",
-      description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://pro.kryptokapital.info/",
+        "A comprehensive job search platform that connects job seekers with potential employers, featuring robust search and application management capabilities.",
+      tags: ["Laravel", "Eloquent ORM"],
+      link: "https://github.com/RahulKoju/JobSearch_App",
     },
     {
-      title: "FriendZ - A social media Platform",
+      title: "HTTP Server",
       description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
+        "A high-performance custom HTTP server built from scratch, demonstrating advanced networking and server-side programming techniques.",
+      tags: ["Node.js", "TCP Sockets", "Performance Optimization"],
+      link: "https://github.com/RahulKoju/CodeCrafters-HTTP-Server",
     },
     {
-      title: "ChatApp- Simple instagram clone",
+      title: "URL Shortener Discord Bot",
       description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+        "A Discord bot that provides users with quick URL shortening capabilities and comprehensive link performance tracking directly within the Discord platform.",
+      tags: ["JavaScript", "Discord", "URL Shortener", "Analytics"],
+      link: "https://github.com/RahulKoju/UrlShortner-DiscrodBot",
     },
   ];
 
   return (
-    // PROJECT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <Layers className="h-4 w-4" />
@@ -100,7 +83,7 @@ to connect, collaborate, and code together. Join the conversation and level up y
         <Heading>My Projects</Heading>
         <FramerWrapper y={0} x={200}>
           <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
-            I love to Build Cool Projects. Here, you&#x27;ll find a curated
+            I enjoy building Cool Projects. Here, you&#x27;ll find a curated
             collection of my creative endeavors and technical projects. Each
             piece represents a journey of innovation, problem-solving, and
             continuous learning. Feel free to explore this showcase of my
