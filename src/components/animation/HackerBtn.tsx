@@ -33,7 +33,7 @@ const HackerBtn = ({ label }: { label: string }) => {
       "https://drive.google.com/uc?export=download&id=1b5qEQpUeVceYiJCLZlWXNZ-4p4Kc_HKK"; // Your Google Drive download URL
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "resume.pdf"; // The name of the file to be downloaded
+    link.download = "RahulKojuResume.pdf"; // The name of the file to be downloaded
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
