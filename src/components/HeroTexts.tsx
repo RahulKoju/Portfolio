@@ -1,14 +1,15 @@
+import { info } from "@/lib/info";
 import TextRotator from "./TextRotator";
 
 const HeroTexts = () => {
-  return (
-    <>
-      <h3 className="font-poppins text-2xl max-sm:text-xl">My Name is</h3>
-      <h1 className="font-rubik text-8xl name_underline text-primary max-sm:text-6xl ">
-        Rahul <br /> Koju .
-      </h1>
-      <TextRotator />
-    </>
-  );
+    return (
+        <>
+            <h3 className="font-poppins text-2xl max-sm:text-xl">My Name is</h3>
+            <h1 className="font-rubik text-8xl name_underline text-primary max-sm:text-6xl ">
+                {info.first_name} <br /> {info.last_name} .
+            </h1>
+            <TextRotator />
+        </>
+    );
 };
 export default HeroTexts;
