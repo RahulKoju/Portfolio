@@ -30,7 +30,7 @@ export default function Home() {
             </FramerWrapper>
             {/* RIGHT SIDE image  */}
             <FramerWrapper
-                className="h-full w-[47%] relative block   max-lg:hidden"
+                className="h-full w-[35%] relative block max-lg:hidden"
                 y={0}
                 x={100}
             >

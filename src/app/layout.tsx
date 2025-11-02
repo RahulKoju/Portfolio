@@ -19,7 +19,7 @@ const rubik = Rubik({
 export const metadata: Metadata = {
     metadataBase: new URL("https://rahulkoju.com.np/"),
     title: {
-        default: siteConfig.name,
+        default: `${siteConfig.name} - Software Developer`,
         template: `%s - Software Developer`,
     },
     description: siteConfig.description,
