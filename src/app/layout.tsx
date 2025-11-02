@@ -4,6 +4,8 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { siteConfig } from "./page";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const poppins = Poppins({
     subsets: ["latin"],
@@ -95,6 +97,8 @@ export default function RootLayout({
                 >
                     <Navbar />
                     {children}
+                    <SpeedInsights />
+                    <Analytics />
                 </main>
             </body>
         </html>
