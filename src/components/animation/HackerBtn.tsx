@@ -32,7 +32,7 @@ const HackerBtn = ({ label }: { label: string }) => {
     const handleDownloadResume = () => {
         const link = document.createElement("a");
         link.href = info.resume_url;
-        link.download = "RahulKojuResume.pdf"; // The name of the file to be downloaded
+        link.download = "Rahul Koju - Frontend Developer Resume.pdf"; // The name of the file to be downloaded
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

@@ -44,7 +44,7 @@ export const info = {
         },
     ],
     resume_url:
-        "https://drive.google.com/uc?export=download&id=1EqJyllBgMZ5-ustR50fvX_QMZBpYgqh7",
+        "https://drive.google.com/uc?export=download&id=1SokuOgKMLoNgx13uFYgJneRDQ5ZtAb7G",
 
     skills: {
         programming_languages: [
