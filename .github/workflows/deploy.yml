@@ -22,6 +22,7 @@ jobs:
       - name: Deploy to server
         run: |
           ssh ubuntu@3.108.40.234 << 'EOF'
+            set -e
             cd ~
             ./deploy.sh
           EOF
