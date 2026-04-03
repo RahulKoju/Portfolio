@@ -1,5 +1,5 @@
 # 1. Builder stage
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 
 WORKDIR /app
 
@@ -14,7 +14,7 @@ ENV RESEND_API_KEY=$RESEND_API_KEY
 RUN npm run build
 
 # 2. production stage
-FROM node:18-alpine
+FROM node:20-alpine
 
 WORKDIR /app
 
