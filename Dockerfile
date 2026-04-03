@@ -1,4 +1,4 @@
- 1. Builder stage
+# 1. Builder stage
 FROM node:18-alpine AS builder
 
 WORKDIR /app
