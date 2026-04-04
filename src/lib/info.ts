@@ -54,7 +54,7 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
   ],
   resume_url:
-    "https://drive.google.com/uc?export=download&id=1SokuOgKMLoNgx13uFYgJneRDQ5ZtAb7G",
+    "https://drive.google.com/uc?export=download&id=1nVR42d90PxvN8KDjpdze4T-n4CpAxNCO",
 
   skills: {
     programming_languages: [
