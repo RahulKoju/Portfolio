@@ -7,14 +7,14 @@ import { Mail, Phone } from "lucide-react";
 
 const contactPage = () => {
   return (
-    // PROJECT PAGE
+    // CONTACT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <Phone className="h-4 w-4" />
-        Contact Us
+        Contact
       </Badge>
       <div className="flex flex-col gap-3 w-full">
-        <Heading>Contact Me!</Heading>
+        <Heading>Get In Touch</Heading>
         <FramerWrapper y={0} x={100}>
           <a
             href={`mailto:${info.email}`}
@@ -29,7 +29,6 @@ const contactPage = () => {
             <ContactForm />
           </FramerWrapper>
         </div>
-        <p className=" font-poppins text-lg w-full text-primary max-sm:text-base"></p>
       </div>
     </div>
   );

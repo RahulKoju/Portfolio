@@ -29,7 +29,7 @@ const morePage = () => {
                     return (
                         <FramerWrapper
                             key={indx}
-                            className="max-w-[32%] max-lg:max-w-full"
+                            className="max-w-[49%] max-lg:max-w-full"
                             y={0}
                             scale={0.8}
                             delay={indx / 4}

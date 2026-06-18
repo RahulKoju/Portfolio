@@ -1,34 +1,26 @@
-import {
-  ExternalLink,
-  Github,
-  Instagram,
-  Linkedin,
-  Twitter,
-} from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 export const info = {
   name: "Rahul Koju",
   first_name: "Rahul",
   last_name: "Koju",
   email: "contact@rahulkoju.com.np",
-  description: "I build applications and the infrastructure that runs them",
-  title: "Software Engineer | Infrastructure & DevOps",
-  summary: `I'm a Software Engineer who builds applications and the systems that keep them running. I work with Next.js, Node.js, and modern frontend tools — and I also design real deployment pipelines using Docker, Nginx, Linux, and AWS.
+  description: "I build the infrastructure that keeps applications running",
+  title: "DevOps Engineer",
+  summary: `DevOps engineer with hands-on experience building containerized applications, CI/CD pipelines, and cloud infrastructure on AWS. I design and operate production-grade Kubernetes clusters with automated GitOps deployments, failure recovery, and full-stack observability using Prometheus, Grafana, and Loki. I write Terraform and Ansible IaC to provision repeatable AWS environments and enforce defense-in-depth networking with least-privilege IAM.
 
-I've built a CI/CD pipeline from scratch: release-based architecture, atomic deployments, container lifecycle management, and structured logging. My focus isn't just on shipping features — it's on understanding how those features get deployed, monitored, and kept reliable.
-
-I'm drawn to the intersection of software engineering and infrastructure. Each project teaches me something new, and I treat every broken deploy and debugging session as a chance to get better.`,
-  short_summary: `Software Engineer building applications and the infrastructure behind them — from CI/CD pipelines to container orchestration on AWS.`,
+I don't just follow tutorials and call it a day. Every pipeline I build, every cluster I break, every deploy that goes sideways — that's where the real learning happens. Always hungry, always improving.`,
+  short_summary: `DevOps engineer building CI/CD pipelines, Kubernetes clusters, and cloud infrastructure on AWS — from Terraform provisioning to full-stack observability.`,
 
   project_description:
-    "A collection of things I've built — from full-stack applications to deployment systems. Each project reflects a real problem I wanted to solve or a concept I needed to understand by building it.",
+    "Infrastructure and deployment systems I've built — from Kubernetes clusters with GitOps delivery to Jenkins CI/CD pipelines with automated rollback. Each one is a real system I designed, broke, fixed, and documented.",
   roles: [
-    "a student",
-    "building things end to end",
-    "figuring out how stuff actually works",
-    "breaking things and fixing them",
-    "still learning",
-    "shipping things that matter",
+    "building infrastructure that scales",
+    "automating repetitive workflows",
+    "documenting systems that last",
+    "learning through real-world projects",
+    "always improving my craft",
+    "solving problems with automation",
   ],
   hobby: ["Coding", "Travelling", "Photography"],
   socials: [
@@ -38,96 +30,87 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
       icon: Linkedin,
     },
     {
-      name: "Instagram",
-      link: "https://www.instagram.com/uchiha_rahul/",
-      icon: Instagram,
-    },
-    {
-      name: "Twitter",
-      link: "https://x.com/rahul_koju",
-      icon: Twitter,
-    },
-    {
       name: "External",
       link: "https://github.com/RahulKoju",
       icon: Github,
     },
   ],
-  resume_url:
-    "https://drive.google.com/uc?export=download&id=1SEjAjTGI0021Yilf93JhNAci_MhHSFf8",
+  resume_url: "/Rahul_Koju_DevOps_Resume.pdf",
 
   skills: {
-    programming_languages: [
-      {
-        name: "TypeScript",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
-      {
-        name: "JavaScript",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      },
-      {
-        name: "Go",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
-      },
-      {
-        name: "C++",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-      },
-      {
-        name: "C",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-      },
-    ],
-
-    frameworks_libraries: [
-      {
-        name: "React",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      },
-      {
-        name: "Next.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      },
-      {
-        name: "Remix",
-        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs0qOXN1v17ySo-KplFj75slPKcCziBqjWjg&s",
-      },
-      {
-        name: "Node.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      },
-      {
-        name: "Express.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-      },
-      {
-        name: "ShadcnUI",
-        icon: "https://ui.shadcn.com/apple-touch-icon.png",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-      },
-    ],
-
-    tools_technologies: [
-      {
-        name: "Git",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-      },
-      {
-        name: "GitHub",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-      },
+    cicd_gitops: [
       {
         name: "GitHub Actions",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg",
       },
       {
+        name: "Jenkins",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+      },
+      {
+        name: "ArgoCD",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg",
+      },
+      {
+        name: "Bash",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+      },
+      {
+        name: "Python",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      },
+    ],
+
+    containers_orchestration: [
+      {
         name: "Docker",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
       },
+      {
+        name: "Kubernetes",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg",
+      },
+      {
+        name: "Helm",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg",
+      },
+    ],
+
+    cloud_iac: [
+      {
+        name: "AWS",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      },
+      {
+        name: "Terraform",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
+      },
+      {
+        name: "Ansible",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg",
+      },
+    ],
+
+    observability: [
+      {
+        name: "Prometheus",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg",
+      },
+      {
+        name: "Grafana",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg",
+      },
+      {
+        name: "Loki",
+        icon: "https://raw.githubusercontent.com/grafana/loki/main/docs/sources/logo.png",
+      },
+      {
+        name: "Alertmanager",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg",
+      },
+    ],
+
+    networking_security: [
       {
         name: "Linux",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
@@ -136,21 +119,21 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
         name: "Nginx",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
       },
-      {
-        name: "Vim",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg",
-      },
-      {
-        name: "Bash",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
-      },
-      {
-        name: "AWS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-      },
     ],
 
-    databases: [
+    backend: [
+      {
+        name: "Go",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+      },
+      {
+        name: "Node.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "Postgres",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      },
       {
         name: "MySQL",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
@@ -160,44 +143,140 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       },
     ],
+
+    frontend: [
+      {
+        name: "React",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      },
+      {
+        name: "Next.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      },
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+      },
+    ],
+
+    tools: [
+      {
+        name: "Git",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      },
+      {
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      },
+      {
+        name: "Vim",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg",
+      },
+    ],
   },
   projects: [
     {
-      uuid: "devops-infra-system",
-      title: "Production Deployment Infrastructure",
-      subtitle: "Self-Hosted DevOps System on AWS",
+      uuid: "commit-three-tier",
+      visible: true,
+      title: "Commit — Three-Tier Web Application",
+      subtitle: "Kubernetes · GitOps · Full Observability on AWS",
       description: `
-  <p>Designed and implemented a <strong>production-grade deployment system</strong> for a Next.js application running on AWS EC2, focusing on <strong>reliability, automation, and rollback safety</strong>.</p>
+  <p>A personal productivity app (tasks, habits, notes, focus timer) built with <strong>React, Go, and Postgres</strong> — deployed on a production Kubernetes cluster with GitOps delivery, full-stack observability, and automated CI/CD on AWS.</p>
 
   <ul>
-    <li><p>Built a <strong>release-based deployment architecture</strong> using versioned directories and <strong>atomic symlink switching</strong> to ensure zero-downtime deployments and instant rollback.</p></li>
+    <li><p>Provisioned the complete AWS environment (<strong>VPC, subnets, security groups, IAM</strong>) using Terraform in ~50 seconds, replacing a multi-hour manual setup with a single repeatable command.</p></li>
 
-    <li><p>Containerized the application using <strong>Docker (multi-stage builds)</strong>, optimizing image size and ensuring isolated runtime environments.</p></li>
+    <li><p>Automated node configuration (swap, kernel modules, sysctl tuning) with <strong>Ansible</strong> in ~65s and bootstrapped a 2-node <strong>RKE Kubernetes cluster</strong> with Canal CNI and NGINX Ingress in ~2m 25s — blank AWS account to fully operational cluster in under 10 minutes.</p></li>
 
-    <li><p>Implemented <strong>container lifecycle management</strong> using Docker restart policies integrated with systemd for automatic recovery.</p></li>
+    <li><p>Eliminated configuration drift across all environments by authoring <strong>Kubernetes manifests</strong> for 3 application tiers with ConfigMaps, Secrets, and a Postgres StatefulSet backed by persistent storage — replacing ad-hoc kubectl changes with fully declarative, version-controlled configuration.</p></li>
 
-    <li><p>Designed a <strong>CI/CD pipeline using GitHub Actions</strong> that connects via SSH, builds images, runs tests, performs health checks, and deploys only verified builds.</p></li>
+    <li><p>Designed a <strong>GitHub Actions CI/CD pipeline</strong> that builds Docker images tagged with commit SHA and auto-updates deployment manifests, achieving zero-effort releases with consistent sub-3-minute deployments.</p></li>
 
-    <li><p>Built a <strong>deployment orchestration script</strong> handling release creation, validation, and safe production rollout.</p></li>
+    <li><p>Implemented <strong>GitOps delivery with ArgoCD</strong>, auto-syncing all 3-tier manifests on every commit with a full audit trail and zero manual kubectl interventions in production.</p></li>
 
-    <li><p>Introduced <strong>structured logging (JSON)</strong> to improve debugging and observability.</p></li>
+    <li><p>Deployed a full <strong>observability stack</strong> (Prometheus, Grafana, Loki, Alertmanager) covering cluster metrics, pod logs, and application traces — with API latency dashboards and automated email alerting.</p></li>
 
-    <li><p>Configured <strong>Nginx as a reverse proxy</strong> for production traffic routing.</p></li>
+    <li><p>Documented the complete system architecture using <strong>Mermaid diagrams</strong> covering AWS infrastructure, cluster topology, CI/CD pipeline, GitOps workflow, and the observability stack.</p></li>
 
-    <li><p>Implemented <strong>health checks</strong> at both container and application levels to validate runtime behavior.</p></li>
+    <li><p>Hardened cluster networking with restrictive <strong>AWS Security Groups</strong>, allowlisting only required ports (etcd 2379–2380, kubelet 10250, Canal VXLAN 8472 UDP) and enforcing <strong>least-privilege IAM</strong> throughout.</p></li>
   </ul>
   `,
-      start_date: "2026-03-01",
+      start_date: "2026-01-01",
       end_date: null,
       date_format_input_type: "Year/Month",
-      links: [],
+      links: [
+        {
+          uuid: "commit-github",
+          link: "https://github.com/RahulKoju/commit",
+          label: "GitHub",
+        },
+        {
+          uuid: "commit-live",
+          link: "https://commit.rahulkoju.com.np",
+          label: "Live",
+        },
+      ],
+    },
+    {
+      uuid: "two-tier-web-app",
+      visible: true,
+      title: "Two-Tier Web Application",
+      subtitle: "Jenkins CI/CD · Automated Rollback · Incident Response",
+      description: `
+  <p>A containerized <strong>Next.js/Postgres application</strong> on AWS EC2 with a fully automated Jenkins CI/CD pipeline, zero-touch rollback, and production resilience validated through structured incident response drills.</p>
+
+  <ul>
+    <li><p>Engineered a <strong>4-stage Jenkins CI/CD pipeline</strong> (build, test, deploy, verify) with consistent sub-2m30s deployments and a fully automated, zero-touch release track.</p></li>
+
+    <li><p>Implemented <strong>automated rollback</strong> using versioned Docker image tags and a last-known-good marker file — health-check-triggered recovery with no manual intervention, ensuring no failed deployment ever reaches production.</p></li>
+
+    <li><p>Ran <strong>structured incident response drills</strong> across three failure scenarios: ~5s crash recovery (SIGTERM), ~20s database outage with graceful 503 degradation, and ~116s full EC2 reboot recovery — all self-healing, zero manual intervention.</p></li>
+
+    <li><p>Secured Postgres credentials via <strong>Jenkins credential binding</strong>, keeping secrets out of source control and enforcing least-privilege access across all deployment stages.</p></li>
+
+    <li><p>Documented findings through <strong>RCA reports and operational runbooks</strong>.</p></li>
+  </ul>
+
+  <p><em>Tech: Next.js, Postgres, Docker Compose, Jenkins, Nginx, AWS EC2, Prisma, Certbot SSL</em></p>
+  `,
+      start_date: null,
+      end_date: "2026-01-01",
+      date_format_input_type: "Year",
+      links: [
+        {
+          uuid: "two-tier-github",
+          link: "https://github.com/RahulKoju/two-tier-web-app",
+          label: "GitHub",
+        },
+        {
+          uuid: "two-tier-live",
+          link: "https://task.rahulkoju.com.np",
+          label: "Live",
+        },
+      ],
     },
     {
       uuid: "729d5a41-feeb-4efb-8525-2ddfa36e0266",
+      visible: true,
       title: "MeroCV",
-      subtitle: "Professional Online CV & Resume Builder",
-      description:
-        "<p>A web platform that helps job seekers and students create <strong>ATS-friendly, professionally designed resumes</strong> within minutes — with multiple templates, guided forms, and fast PDF exports.</p><ul><li><p>Built a <strong>monorepo architecture</strong> with shared packages for API communication, type safety, and consistent data-fetching patterns across apps.</p></li><li><p>Implemented <strong>step-by-step guided forms</strong> allowing users to create and manage multiple CVs for different job profiles.</p></li><li><p>Designed <strong>authentication and authorization flows</strong> with role-based access for different user types.</p></li><li><p>Integrated a <strong>headless CMS backend</strong> with structured API communication and server-side request deduplication.</p></li><li><p>Focused on <strong>frontend performance</strong> — resolving hydration issues, optimizing rendering, and ensuring responsive design across devices.</p></li></ul>",
+      subtitle: "Docker · Monorepo CI/CD · Production Deployment",
+      description: `
+  <p>A production resume builder serving real users, running as a <strong>2-app Next.js monorepo</strong> — containerized with optimized Docker builds and automated deployment pipelines on AWS.</p>
+
+  <ul>
+    <li><p>Cut production Docker image size by <strong>~90%</strong> by authoring <strong>multi-stage Dockerfiles with Turborepo pruning</strong>, shipping only the standalone Next.js bundle in the final stage.</p></li>
+
+    <li><p>Eliminated race-condition failures between 2 interdependent services using <strong>Docker Compose with healthcheck-gated startup ordering</strong>, isolated bridge networking, and environment-variable injection — stable, reproducible deploys across all environments.</p></li>
+
+    <li><p>Reduced per-deploy asset pipeline time by <strong>~40%</strong> with <strong>Python and Bash automation scripts</strong> for image optimization and asset processing, removing manual steps from the release workflow.</p></li>
+
+    <li><p>Maintained <strong>architecture documentation, deployment runbooks, and component SOPs</strong>, reducing onboarding time and establishing a reliable reference for the team.</p></li>
+  </ul>
+  `,
       start_date: "2025-03-01",
       end_date: null,
       date_format_input_type: "Year/Month",
@@ -211,21 +290,67 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
     {
       uuid: "eb8fe430-9461-4c6b-842f-a2d7c9373df0",
-      title: "NLTTA",
-      subtitle: "Nepali Language Translation and Transliteration Automation",
+      visible: true,
+      title:
+        "NLTTA (Nepali Language Translation and Transliteration Automation)",
+      subtitle: "Deep Learning · NLP · Information Retrieval",
       description:
-        "<p>Collaborated with a team of 3 members to develop a deep learning–based system designed to bridge linguistic gaps for Nepali users by translating Romanized and Devanagari Nepali queries into English and retrieving relevant news articles.</p><ul><li><p>Designed and implemented a <strong>complete NLP pipeline</strong> combining a <strong>fine-tuned mBART transformer model</strong> for translation with the <strong>BM25 ranking algorithm</strong> for probabilistic document retrieval.</p></li><li><p>Fine-tuned the multilingual <strong>mBART model</strong> on a Nepali–English parallel corpus for accurate translation of Romanized text.</p></li><li><p>Implemented <strong>BM25</strong> for ranking and retrieving news articles based on translated queries.</p></li><li><p>Achieved high translation accuracy with a <strong>BLEU score of 39.84</strong> and a <strong>BERT score of 0.9613</strong>, comparable to larger commercial models.</p></li><li><p>Enabled users to search news content seamlessly using informal, chat-style Nepali inputs.</p></li></ul>",
-      start_date: "2025-06-01",
+        "<p>A deep learning system that translates Romanized and Devanagari Nepali queries into English and retrieves relevant news articles — built with a team of 3.</p><ul><li><p>Designed an <strong>end-to-end NLP pipeline</strong> combining a <strong>fine-tuned mBART transformer</strong> for translation with the <strong>BM25 ranking algorithm</strong> for probabilistic document retrieval.</p></li><li><p>Fine-tuned <strong>mBART</strong> on a Nepali–English parallel corpus, achieving a <strong>BLEU score of 39.84</strong> and <strong>BERT score of 0.9613</strong> — comparable to larger commercial models.</p></li><li><p>Enabled users to search English news content using informal, chat-style Nepali inputs.</p></li></ul>",
+      start_date: null,
+      end_date: "2025-01-01",
+      date_format_input_type: "Year",
+      links: [],
+    },
+    {
+      uuid: "e9819aae-5532-4f06-8a27-8eba59e4ff00",
+      visible: true,
+      title: "HTTP Server",
+      subtitle: "Built from Scratch with Raw TCP Sockets",
+      description:
+        "<p>An HTTP server built from scratch using <strong>Node.js and raw TCP sockets</strong> — no frameworks, no abstractions, just the protocol.</p><ul><li><p>Implemented the full <strong>HTTP/1.1 request-response cycle</strong> manually: parsing headers, routing requests, and serving responses over raw TCP.</p></li><li><p>Added <strong>gzip compression</strong>, structured error handling, and asynchronous file serving.</p></li><li><p>The kind of project that changes how you think about every web server you touch after.</p></li></ul>",
+      start_date: null,
+      end_date: "2024-07-01",
+      date_format_input_type: "Year/Month",
+      links: [
+        {
+          uuid: "44711cca-3995-40b5-83e4-73f53333dac9",
+          link: "https://github.com/RahulKoju/CodeCrafters-HTTP-Server",
+          label: "GitHub",
+        },
+      ],
+    },
+    {
+      uuid: "devops-infra-system",
+      visible: false,
+      title: "Production Deployment Infrastructure",
+      subtitle: "Self-Hosted DevOps System on AWS",
+      description: `
+  <p>A production-grade <strong>self-hosted deployment system</strong> for Next.js applications on AWS, focused on automated releases and zero-downtime rollouts.</p>
+
+  <ul>
+    <li><p>Implemented <strong>atomic symlink switching</strong> for instant, zero-downtime deployments and one-click rollbacks.</p></li>
+
+    <li><p>Containerized the application with <strong>multi-stage Docker builds</strong>, optimizing for minimal image size and isolated runtimes.</p></li>
+
+    <li><p>Configured <strong>GitHub Actions</strong> for an automated build-test-deploy pipeline via SSH.</p></li>
+
+    <li><p>Hardened production access with <strong>Nginx reverse proxy</strong> and systemd-managed container lifecycles.</p></li>
+  </ul>
+
+  <p><em>Tech: Next.js, Docker, GitHub Actions, Nginx, Bash, Systemd</em></p>
+  `,
+      start_date: null,
       end_date: null,
       date_format_input_type: "Year/Month",
       links: [],
     },
     {
       uuid: "3dc323e9-7a6b-4d10-8751-a3d7fd1e8c29",
+      visible: false,
       title: "Notify Nepal",
-      subtitle: "Curated News Portal",
+      subtitle: "News Aggregation Platform",
       description:
-        "<p>A digital news platform that aggregates content from <strong>public RSS feeds</strong> across trusted Nepali and international sources, delivering timely information across categories like politics, business, culture, and sports.</p><ul><li><p>Built a <strong>content aggregation system</strong> that fetches, normalizes, and displays news from multiple RSS sources in a unified interface.</p></li><li><p>Implemented a <strong>responsive and interactive UI</strong> with seamless access across mobile and desktop devices.</p></li><li><p>Applied <strong>performance, SEO, and accessibility optimizations</strong> to improve load times and search visibility.</p></li><li><p>Handled <strong>state management and API integrations</strong> for smooth content rendering and navigation.</p></li><li><p>Provided clear attribution to original sources and a <strong>content removal request mechanism</strong> for publishers.</p></li></ul>",
+        "<p>A news aggregation platform that pulls content from <strong>public RSS feeds</strong> across trusted Nepali and international sources, normalizing and displaying articles across politics, business, culture, and sports.</p><ul><li><p>Built a <strong>content aggregation engine</strong> that fetches, normalizes, and renders news from multiple RSS sources in a unified, responsive interface.</p></li><li><p>Optimized for <strong>performance, SEO, and accessibility</strong> — fast load times and strong search visibility out of the box.</p></li><li><p>Implemented proper <strong>source attribution</strong> and a content removal mechanism for publishers.</p></li></ul>",
       start_date: "2025-04-01",
       end_date: "2025-08-01",
       date_format_input_type: "Year/Month",
@@ -239,10 +364,11 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
     {
       uuid: "cebf00c3-3c46-43a3-bec6-cad54c5c8c32",
+      visible: false,
       title: "Phoksundo",
-      subtitle: "",
+      subtitle: "Tourism Platform · Nepal",
       description:
-        "<p>A web platform promoting Phoksundo and surrounding regions in Nepal, providing travelers with a comprehensive guide to <strong>attractions, accommodations, activities, and local culture</strong>. The platform aims to enhance tourism experiences while supporting local communities.</p><ul><li><p>Developed a <strong>structured content system</strong> to showcase destinations, activities, and travel resources in an organized and visually appealing way.</p></li><li><p>Implemented a <strong>responsive and accessible design</strong> for seamless browsing on both mobile and desktop devices.</p></li><li><p>Integrated <strong>multimedia content</strong>, including images, videos, and maps, to enrich user engagement and help travelers plan effectively.</p></li><li><p>Applied <strong>performance, SEO, and usability optimizations</strong> to maximize reach among domestic and international tourists.</p></li><li><p>Delivered a <strong>visually appealing and user-friendly interface</strong> that enables travelers to explore and plan trips effortlessly.</p></li></ul>",
+        "<p>A web platform promoting Phoksundo and surrounding regions in Nepal — a comprehensive travel guide covering <strong>attractions, accommodations, activities, and local culture</strong>.</p><ul><li><p>Built a <strong>structured content system</strong> for destinations, activities, and travel resources with an organized, visually engaging layout.</p></li><li><p>Integrated <strong>multimedia content</strong> (images, videos, maps) to help travelers plan trips effectively.</p></li><li><p>Optimized for <strong>performance and SEO</strong> to maximize reach among domestic and international tourists.</p></li></ul>",
       start_date: "2025-09-01",
       end_date: null,
       date_format_input_type: "Year/Month",
@@ -256,10 +382,11 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
     {
       uuid: "bccff299-3538-4e9c-9acb-8c733c10b584",
+      visible: false,
       title: "E-Driving License Registration System",
-      subtitle: "",
+      subtitle: "E-Governance · Team Lead",
       description:
-        "<p>A conceptual e-governance platform designed to <strong>reduce long queues for driving license applications</strong> by allowing users to apply online and manage appointments. The project focused on solving real-world government service inefficiencies.</p><ul><li><p><strong>Led a team of 4 members</strong>, coordinating the frontend development and project design.</p></li><li><p>Designed a <strong>token-based appointment system</strong> concept to help users reserve slots and reduce waiting times.</p></li><li><p>Developed <strong>mock user registration, authentication, and profile management flows</strong> to demonstrate the platform’s functionality.</p></li><li><p>Focused on <strong>user experience and usability</strong>, illustrating a practical approach to digitalizing government services.</p></li></ul>",
+        "<p>An e-governance platform designed to <strong>digitalize the driving license application process</strong> in Nepal — reducing queues by enabling online applications and appointment management.</p><ul><li><p><strong>Led a team of 4</strong>, coordinating frontend development and overall project design.</p></li><li><p>Designed a <strong>token-based appointment system</strong> for reserving slots and reducing wait times at government offices.</p></li><li><p>Built <strong>user registration, authentication, and profile management</strong> flows to demonstrate the full platform lifecycle.</p></li></ul>",
       start_date: null,
       end_date: "2025-04-01",
       date_format_input_type: "Year/Month",
@@ -273,10 +400,11 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
     {
       uuid: "17303160-01d9-4c11-992f-665a3bb7d6be",
+      visible: false,
       title: "E-Mitra",
-      subtitle: "Restaurant E-commerce Platform",
+      subtitle: "Full-Stack Restaurant Platform",
       description:
-        "<p>Built a full-stack platform to streamline restaurant operations and enhance the customer experience, featuring <strong>role-based access control</strong> and integrated<strong> payment gateway</strong>.</p><ul><li><p>Developed an <strong>analytics dashboard</strong>, <strong>order management system</strong>, and <strong>admin portal </strong>to demonstrate efficient business operations.</p></li><li><p>Implemented <strong>role-based access control</strong> to manage different user roles within the platform.</p></li><li><p>Integrated <strong>Khalti and eSewa payment gateways</strong> to simulate a complete digital transaction flow.</p></li><li><p>Used <strong>Strapi as a headless CMS</strong> and <strong>Supabase for database management</strong>, ensuring a scalable and maintainable architecture.</p></li></ul>",
+        "<p>A full-stack restaurant e-commerce platform with <strong>role-based access control</strong>, integrated payment gateways, and an analytics dashboard.</p><ul><li><p>Built an <strong>admin portal</strong> with analytics dashboard and order management system for business operations.</p></li><li><p>Integrated <strong>Khalti and eSewa payment gateways</strong> for a complete digital transaction flow.</p></li><li><p>Used <strong>Strapi as a headless CMS</strong> and <strong>Supabase</strong> for database management, keeping the architecture modular and maintainable.</p></li></ul>",
       start_date: "2024-11-01",
       end_date: "2025-04-01",
       date_format_input_type: "Year/Month",
@@ -290,10 +418,11 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
     {
       uuid: "2ae67a13-f8bb-460d-bf85-d3ef03f586ef",
+      visible: false,
       title: "Everest Canvas",
-      subtitle: "",
+      subtitle: "E-Commerce · Canvas Prints",
       description:
-        "<p>A scalable eCommerce platform for selling <strong>high-quality canvas prints</strong>, offering diverse materials, shapes, sizes, and multi-panel options to meet various customer preferences.</p><ul><li><p>Developed a <strong>dynamic product catalog</strong> structure using static data, supporting multiple variants like standard, panoramic, and custom sizes.</p></li><li><p>Implemented <strong>preview and customization features</strong> for products, enhancing user engagement and purchase confidence.</p></li><li><p>Focused on <strong>performance optimization</strong>, ensuring the site is fast and responsive across devices.</p></li><li><p>Delivered a <strong>maintainable, visually appealing static site</strong> that provides a seamless browsing and shopping experience.</p></li></ul>",
+        "<p>An eCommerce platform for selling <strong>high-quality canvas prints</strong> with support for diverse materials, shapes, sizes, and multi-panel options.</p><ul><li><p>Built a <strong>dynamic product catalog</strong> supporting multiple variants — standard, panoramic, and custom sizes.</p></li><li><p>Implemented <strong>live preview and customization features</strong> so customers can visualize their prints before purchasing.</p></li><li><p>Optimized for <strong>fast load times</strong> and responsive browsing across all devices.</p></li></ul>",
       start_date: "2025-04-01",
       end_date: "2025-08-01",
       date_format_input_type: "Year/Month",
@@ -307,10 +436,11 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
     {
       uuid: "7cb4bcb0-4ce9-4fab-bc6f-f5e34a1305fd",
-      title: "Oauth & Payment API",
-      subtitle: "Laravel & Google OAuth Integration",
+      visible: false,
+      title: "OAuth & Payment API",
+      subtitle: "Laravel · OAuth 2.0 · Payment Integration",
       description:
-        "<p>Built a <strong>secure, configuration-driven API</strong> integrating multiple payment gateways and OAuth authentication for seamless third-party login and digital transactions.</p><ul><li><p>Implemented <strong>OAuth 2.0 authentication</strong> using Laravel Socialite for secure user login with third-party providers.</p></li><li><p>Integrated <strong>eSewa and Khalti payment gateways</strong> using <strong>test APIs</strong> to simulate digital transaction workflows.</p></li><li><p>Designed a <strong>scalable, API-first architecture</strong>, allowing easy integration with web and mobile applications.</p></li><li><p>Focused on <strong>security, maintainability, and best practices</strong>, ensuring robust authentication and payment workflows.</p></li><li><p>Gained hands-on experience with <strong>API integration, backend logic, and configuration-driven design</strong> in a learning environment.</p></li></ul>",
+        "<p>A <strong>configuration-driven REST API</strong> integrating OAuth 2.0 authentication and multiple payment gateways for third-party login and digital transactions.</p><ul><li><p>Implemented <strong>OAuth 2.0</strong> via Laravel Socialite for secure third-party authentication.</p></li><li><p>Integrated <strong>eSewa and Khalti payment gateways</strong> with test APIs to simulate end-to-end transaction workflows.</p></li><li><p>Designed an <strong>API-first architecture</strong> for straightforward integration with web and mobile clients.</p></li></ul>",
       start_date: null,
       end_date: "2024-11-01",
       date_format_input_type: "Year/Month",
@@ -324,10 +454,11 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
     {
       uuid: "3acb2a79-ea4e-4821-b313-82f3a87fd610",
+      visible: false,
       title: "Blog Application",
-      subtitle: "",
+      subtitle: "MERN Stack · Full CMS",
       description:
-        "<p>A fully functional content management system (CMS) using the <strong>MERN stack</strong>, enabling secure blogging and content management.</p><ul><li><p>Implemented <strong>JWT-based authentication</strong>, user roles, and full <strong>CRUD operations</strong> for posts and user management.</p></li><li><p>Integrated <strong>Nodemailer</strong> for email verification and password recovery.</p></li><li><p>Used <strong>JOI</strong> for robust data validation and error handling.</p></li><li><p>Designed a <strong>responsive UI</strong> with <strong>Tailwind CSS</strong> and <strong>Flowbite-React</strong>, ensuring optimized user experience across devices.</p></li><li><p>Integrated <strong>Redux</strong> for global state management, reducing repetitive code and improving application maintainability.</p></li><li><p>Deployed via Render, supporting multimedia storage using Firebase.</p></li></ul>",
+        "<p>A full-featured content management system built with the <strong>MERN stack</strong> — JWT authentication, role-based access, and complete CRUD for posts and users.</p><ul><li><p>Implemented <strong>JWT-based auth</strong> with email verification and password recovery via Nodemailer.</p></li><li><p>Used <strong>JOI</strong> for request validation and <strong>Redux</strong> for global state management.</p></li><li><p>Designed a responsive UI with <strong>Tailwind CSS</strong> and <strong>Flowbite-React</strong>, deployed on Render with Firebase for media storage.</p></li></ul>",
       start_date: "2024-06-01",
       end_date: "2024-08-01",
       date_format_input_type: "Year/Month",
@@ -345,28 +476,12 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
       ],
     },
     {
-      uuid: "e9819aae-5532-4f06-8a27-8eba59e4ff00",
-      title: "HTTP Server",
-      subtitle: "",
-      description:
-        "<p>Built an HTTP server from scratch using <strong>Node.js and raw TCP sockets</strong> to understand how HTTP works at the protocol level.</p><ul><li><p>Implemented the <strong>HTTP/1.1 request-response cycle</strong> manually — parsing headers, routing, and serving responses over TCP.</p></li><li><p>Added <strong>gzip compression</strong>, error handling, and asynchronous file serving for efficient content delivery.</p></li><li><p>Gained practical understanding of what frameworks like Express abstract away under the hood.</p></li></ul>",
-      start_date: null,
-      end_date: "2024-07-01",
-      date_format_input_type: "Year/Month",
-      links: [
-        {
-          uuid: "44711cca-3995-40b5-83e4-73f53333dac9",
-          link: "https://github.com/RahulKoju/CodeCrafters-HTTP-Server",
-          label: "GitHub",
-        },
-      ],
-    },
-    {
       uuid: "6f11fe81-c69b-45e0-8c3e-92715c2b1535",
-      title: "AI Chat-bot Application",
-      subtitle: "",
+      visible: false,
+      title: "AI Chatbot",
+      subtitle: "TypeScript · Groq · Open-Source LLMs",
       description:
-        "<ul><li><p>Built a chatbot using open-source models powered by Groq.</p></li><li><p>Utilized TypeScript to build scalable type safe backend.</p></li><li><p>Designed, deployed, and made it publicly accessible.</p></li></ul>",
+        "<p>A conversational chatbot powered by <strong>open-source LLMs via Groq</strong>, built with a type-safe TypeScript backend and deployed as a public service.</p><ul><li><p>Integrated <strong>Groq's inference API</strong> for fast, low-latency responses from open-source models.</p></li><li><p>Built a <strong>type-safe backend</strong> with TypeScript for reliability and maintainability.</p></li></ul>",
       start_date: null,
       end_date: "2024-09-01",
       date_format_input_type: "Year/Month",
@@ -380,10 +495,11 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
     {
       uuid: "595dd451-309a-4f91-ac99-7a8a07abf4a8",
-      title: "Job Search Application",
-      subtitle: "",
+      visible: false,
+      title: "Job Search App",
+      subtitle: "Laravel · Eloquent · Blade",
       description:
-        "<p>A hands-on demo project to learn <strong>Laravel fundamentals</strong>, including routing, controllers, policies, models, and database interactions. Built features for <strong>job searching and listing</strong>, with a focus on practicing core Laravel concepts.</p><ul><li><p>Built using <strong>Laravel artisan commands</strong>, controllers, policies, and models.</p></li><li><p>Utilized <strong>Eloquent ORM, factories, and migrations</strong> for database management.</p></li><li><p>Implemented <strong>CRUD operations, authentication, and unit testing</strong> for model relationships.</p></li><li><p>Designed responsive UI using <strong>Blade templates</strong>.</p></li></ul>",
+        "<p>A job search and listing application built to practice <strong>core Laravel patterns</strong> — routing, controllers, policies, Eloquent ORM, and Blade templating.</p><ul><li><p>Implemented <strong>full CRUD</strong>, authentication, and unit testing for model relationships.</p></li><li><p>Used <strong>Eloquent ORM</strong> with factories and migrations for clean database management.</p></li><li><p>Built a responsive UI with <strong>Blade templates</strong>.</p></li></ul>",
       start_date: "2024-10-01",
       end_date: "2024-11-01",
       date_format_input_type: "Year/Month",
@@ -397,10 +513,11 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
     },
     {
       uuid: "6d6a75bb-f93b-4191-8fa1-4144630859c2",
-      title: "URL shortner",
-      subtitle: "",
+      visible: false,
+      title: "URL Shortener",
+      subtitle: "Node.js · Analytics",
       description:
-        "<ul><li><p>Implemented <strong>URL shortening and redirection logic</strong> </p></li><li><p>Tracked <strong>clicks, referrers, and basic metrics</strong>, providing simple analytics to users.</p></li></ul>",
+        "<p>A URL shortening service with built-in analytics — shorten links and track <strong>clicks, referrers, and usage metrics</strong>.</p><ul><li><p>Implemented <strong>URL shortening and redirection</strong> with unique hash generation.</p></li><li><p>Built a simple <strong>analytics dashboard</strong> tracking clicks and referrer data.</p></li></ul>",
       start_date: null,
       end_date: null,
       date_format_input_type: "Year/Month",
@@ -424,34 +541,24 @@ I'm drawn to the intersection of software engineering and infrastructure. Each p
       description: "Professional profile and work experience",
       link: "https://www.linkedin.com/in/rahul-koju/",
     },
-    {
-      title: "Twitter",
-      description: "Follow me for updates and insights",
-      link: "https://x.com/rahul_koju",
-    },
-    {
-      title: "Instagram",
-      description: "Photography and personal moments",
-      link: "https://www.instagram.com/uchiha_rahul/",
-    },
   ],
   education: [
     {
-      date: "March 2022 - 2026",
+      date: "2022 - 2026",
       degree:
-        "Bachelors of Science in Computer Science and Information Technology (B.Sc. CSIT)",
+        "Bachelor of Science in Computer Science and Information Technology (B.Sc. CSIT)",
       institution: "Tribhuvan University, Kathmandu",
       college: "Bhaktapur Multiple Campus (Government College)",
       description:
-        "Currently pursuing a comprehensive program that blends theoretical computer science with practical IT applications. The curriculum covers algorithms, data structures, software engineering, databases, networking, and emerging technologies.",
+        "Completed coursework covering algorithms, data structures, software engineering, databases, networking, and operating systems. Awaiting graduation.",
     },
     {
       date: "2019 - 2021",
-      degree: "Higher Secondary Education (10+2) in Science",
+      degree: "Higher Secondary Education (+2) in Science",
       institution: "HSEB, Nepal",
       college: "Khwopa Secondary School, Bhaktapur",
       description:
-        "Completed higher secondary education with a focus on science subjects, including physics, chemistry, biology, and mathematics. Developed a strong foundation in scientific principles and analytical thinking.",
+        "Completed higher secondary education in science with a focus on physics, chemistry, and mathematics.",
     },
   ],
 };

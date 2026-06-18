@@ -22,15 +22,17 @@ const projectsPage = () => {
             </div>
 
             <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
-                {info.projects.map((project, indx) => {
-                    return (
-                        <ProjectCards
-                            key={project.uuid}
-                            value={project}
-                            num={indx}
-                        />
-                    );
-                })}
+                {info.projects
+                    .filter((project) => project.visible !== false)
+                    .map((project, indx) => {
+                        return (
+                            <ProjectCards
+                                key={project.uuid}
+                                value={project}
+                                num={indx}
+                            />
+                        );
+                    })}
             </div>
         </div>
     );
