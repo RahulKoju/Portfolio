@@ -436,7 +436,7 @@ I don't just follow tutorials and call it a day. Every pipeline I build, every c
     },
     {
       uuid: "7cb4bcb0-4ce9-4fab-bc6f-f5e34a1305fd",
-      visible: false,
+      visible: true,
       title: "OAuth & Payment API",
       subtitle: "Laravel · OAuth 2.0 · Payment Integration",
       description:
@@ -454,7 +454,7 @@ I don't just follow tutorials and call it a day. Every pipeline I build, every c
     },
     {
       uuid: "3acb2a79-ea4e-4821-b313-82f3a87fd610",
-      visible: false,
+      visible: true,
       title: "Blog Application",
       subtitle: "MERN Stack · Full CMS",
       description:
